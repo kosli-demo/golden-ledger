@@ -4,17 +4,16 @@ on:
   push:
     branches:
       - main
-  #schedule: 
-  #  - cron: '* * * * *' # Max, every 5 minutes
 
 env:
   KOSLI_API_TOKEN: ${{ secrets.KOSLI_API_TOKEN }}
-  KOSLI_DEBUG:     false
-  KOSLI_DRY_RUN:   false
-  KOSLI_HOST:      https://staging.app.kosli.com
-  KOSLI_ORG:       kosli-demo
+  KOSLI_DEBUG:     ${{ vars.KOSLI_DEBUG }}
+  KOSLI_DRY_RUN:   ${{ vars.KOSLI_DRY_RUN }}
+  KOSLI_HOST:      ${{ vars.KOSLI_HOST }}
+  KOSLI_ORG:       ${{ vars.KOSLI_ORG }}
   KOSLI_FLOW:      ${{ github.event.repository.name }}-ci
   KOSLI_TRAIL:     ${{ github.sha}}
+  SERVICE_NAME:    ${{ github.event.repository.name }}  # eg golden-ledger
 
 jobs:
   setup:
@@ -22,12 +21,33 @@ jobs:
     if: ${{ github.event.repository.name != 'base' }}
     runs-on: ubuntu-latest
     outputs:
-      repo_json: ${{ steps.setup-repo-json.outputs.repo_json }}
+      repo_name:    ${{ steps.vars.outputs.repo_name }}
+      service_name: ${{ steps.vars.outputs.service_name }}
+      registry:     ${{ steps.vars.outputs.registry }}
+      image_tag:    ${{ steps.vars.outputs.image_tag }}
+      image_name:   ${{ steps.vars.outputs.image_name }}
+      kosli_trail:  ${{ steps.vars.outputs.kosli_trail }}
+      repo_json:    ${{ steps.setup-repo-json.outputs.repo_json }}
     steps:
       - name: Harden Runner
         uses: step-security/harden-runner@v2
         with:
           egress-policy: audit
+
+      - name: Prepare outputs
+        id: vars
+        run: |
+          REGISTRY="ghcr.io/kosli-demo"
+          IMAGE_TAG="${GITHUB_SHA:0:7}"
+          IMAGE_NAME="${REGISTRY}/${SERVICE_NAME}:${IMAGE_TAG}"
+          {
+            echo "repo_name=${{ github.event.repository.name }}"
+            echo "service_name=${SERVICE_NAME}"
+            echo "registry=${REGISTRY}"
+            echo "image_tag=${IMAGE_TAG}"
+            echo "image_name=${IMAGE_NAME}"
+            echo "kosli_trail=${KOSLI_TRAIL}"
+          } >> "${GITHUB_OUTPUT}"
 
       - uses: actions/checkout@v6
 
@@ -40,7 +60,7 @@ jobs:
           echo "repo_json=${REPO_JSON}" >> ${GITHUB_OUTPUT}
 
       - name: Setup Kosli CLI
-        uses: kosli-dev/setup-cli-action@v2
+        uses: kosli-dev/setup-cli-action@v3
         with:
           version: ${{ vars.KOSLI_CLI_VERSION }}
 
@@ -48,42 +68,64 @@ jobs:
         run:
           kosli create flow "${KOSLI_FLOW}"
 
-      # - name: Begin Kosli Trail
-      #   run:
-      #     kosli begin trail "${KOSLI_TRAIL}"
-
-      # - name: Write Trail URL to GitHub Step Summary
-      #   run: |
-      #     url="${KOSLI_HOST}/${KOSLI_ORG}/flows/${KOSLI_FLOW}/trails/${KOSLI_TRAIL}"
-      #     echo "[Kosli Trail](${url})" > "${GITHUB_STEP_SUMMARY}"
-
-
-  build:
-    needs: [setup]
-    runs-on: ubuntu-latest
-    env:
-      REPO_JSON: ${{ needs.setup.outputs.repo_json }}
-    steps:
-      # - name: Harden Runner
-      #   uses: step-security/harden-runner@v2
-      #   with:
-      #     egress-policy: audit
-
-      # - uses: actions/checkout@v6
-
-      - name: Print repo json
+      - name: Begin Kosli Trail
         run:
-          jq . <<< "${REPO_JSON}"
+          kosli begin trail "${KOSLI_TRAIL}"
 
-      # - name: Build docker image
-      #   run:
-      #     make image
+      - name: Write Trail URL to GitHub Step Summary
+        run: |
+          url="${KOSLI_HOST}/${KOSLI_ORG}/flows/${KOSLI_FLOW}/trails/${KOSLI_TRAIL}"
+          echo "[Kosli Trail](${url})" > "${GITHUB_STEP_SUMMARY}"
 
-      # - name: Setup Kosli CLI
-      #   uses: kosli-dev/setup-cli-action@v2
-      #   with:
-      #     version: ${{ vars.KOSLI_CLI_VERSION }}
+  build-image:
+    needs: [setup]
+    uses: kosli-demo/actions/.github/workflows/secure-docker-build.yml@main
+    with:
+      checkout_repository: kosli-demo/${{ needs.setup.outputs.repo_name }}
+      checkout_ref: ${{ github.sha }}
+      checkout_fetch_depth: 1
+      image_name: ${{ needs.setup.outputs.registry }}/${{ needs.setup.outputs.service_name }}
+      image_tag: ${{ needs.setup.outputs.image_tag }}
+      image_build_args: |
+        COMMIT_SHA=${{ github.sha }}
+      kosli_flow: ${{ env.KOSLI_FLOW }}
+      kosli_trail: ${{ env.KOSLI_TRAIL }}
+      kosli_reference_name: artifact
+      attest_to_kosli: ${{ github.ref == 'refs/heads/main' }}
+    secrets:
+      kosli_api_token: ${{ secrets.KOSLI_API_TOKEN }}
 
-      # - name: Attest docker image
-      #   run:
-      #     kosli attest artifact 
+
+  # was-build:
+  #   needs: [setup]
+  #   runs-on: ubuntu-latest
+  #   env:
+  #     REPO_JSON: ${{ needs.setup.outputs.repo_json }}
+  #   steps:
+  #     - name: Harden Runner
+  #       uses: step-security/harden-runner@v2
+  #       with:
+  #         egress-policy: audit
+
+  #     - uses: actions/checkout@v6
+
+  #     - name: Print info
+  #       run: |
+  #         jq . <<< "${REPO_JSON}"
+  #         echo "${{ needs.setup.outputs.service_name }}"
+  #         echo "${{ needs.setup.outputs.image_tag }}"
+  #         echo "${{ needs.setup.outputs.image_name }}"
+  #         echo "${{ needs.setup.outputs.kosli_trail }}"
+
+  #     - name: Build docker image
+  #       run:
+  #         make image
+
+  #     - name: Setup Kosli CLI
+  #       uses: kosli-dev/setup-cli-action@v3
+  #       with:
+  #         version: ${{ vars.KOSLI_CLI_VERSION }}
+
+  #     - name: Attest docker image
+  #       run:
+  #         kosli attest artifact ...
