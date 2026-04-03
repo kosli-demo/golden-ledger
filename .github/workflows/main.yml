@@ -26,6 +26,7 @@ jobs:
       registry:     ${{ steps.vars.outputs.registry }}
       image_tag:    ${{ steps.vars.outputs.image_tag }}
       image_name:   ${{ steps.vars.outputs.image_name }}
+      kosli_flow:   ${{ steps.vars.outputs.kosli_flow }}
       kosli_trail:  ${{ steps.vars.outputs.kosli_trail }}
       repo_json:    ${{ steps.setup-repo-json.outputs.repo_json }}
     steps:
@@ -46,6 +47,7 @@ jobs:
             echo "registry=${REGISTRY}"
             echo "image_tag=${IMAGE_TAG}"
             echo "image_name=${IMAGE_NAME}"
+            echo "kosli_flow=${KOSLI_FLOW}"
             echo "kosli_trail=${KOSLI_TRAIL}"
           } >> "${GITHUB_OUTPUT}"
 
@@ -88,8 +90,8 @@ jobs:
       image_tag: ${{ needs.setup.outputs.image_tag }}
       image_build_args: |
         COMMIT_SHA=${{ github.sha }}
-      kosli_flow: ${{ env.KOSLI_FLOW }}
-      kosli_trail: ${{ env.KOSLI_TRAIL }}
+      kosli_flow: ${{ needs.setup.outputs.kosli_flow }}
+      kosli_trail: ${{ needs.setup.outputs.kosli_trail }}
       kosli_reference_name: artifact
       attest_to_kosli: ${{ github.ref == 'refs/heads/main' }}
     secrets:
