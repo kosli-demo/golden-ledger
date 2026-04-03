@@ -1,0 +1,15 @@
+
+services:
+  base:
+    build:
+      context: .
+      args:
+        - COMMIT_SHA
+    image: ${KOSLI_DEMO_BASE_IMAGE}:${KOSLI_DEMO_BASE_TAG}
+    container_name: kosli_demo
+    env_file: [ .env ]
+    read_only: true
+    restart: no
+    tmpfs:
+      - /tmp
+

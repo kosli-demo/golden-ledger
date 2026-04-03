@@ -1,0 +1,11 @@
+source 'https://rubygems.org'
+
+gem 'json'
+gem 'json-stream'
+gem 'puma'
+gem 'rack'
+gem 'rest-client'
+gem 'thin'
+gem 'sinatra'
+gem 'sinatra-contrib'
+gem 'sprockets'
