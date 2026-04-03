@@ -96,38 +96,3 @@ jobs:
       attest_to_kosli: ${{ github.ref == 'refs/heads/main' }}
     secrets:
       kosli_api_token: ${{ secrets.KOSLI_API_TOKEN }}
-
-
-  # was-build:
-  #   needs: [setup]
-  #   runs-on: ubuntu-latest
-  #   env:
-  #     REPO_JSON: ${{ needs.setup.outputs.repo_json }}
-  #   steps:
-  #     - name: Harden Runner
-  #       uses: step-security/harden-runner@v2
-  #       with:
-  #         egress-policy: audit
-
-  #     - uses: actions/checkout@v6
-
-  #     - name: Print info
-  #       run: |
-  #         jq . <<< "${REPO_JSON}"
-  #         echo "${{ needs.setup.outputs.service_name }}"
-  #         echo "${{ needs.setup.outputs.image_tag }}"
-  #         echo "${{ needs.setup.outputs.image_name }}"
-  #         echo "${{ needs.setup.outputs.kosli_trail }}"
-
-  #     - name: Build docker image
-  #       run:
-  #         make image
-
-  #     - name: Setup Kosli CLI
-  #       uses: kosli-dev/setup-cli-action@v3
-  #       with:
-  #         version: ${{ vars.KOSLI_CLI_VERSION }}
-
-  #     - name: Attest docker image
-  #       run:
-  #         kosli attest artifact ...
