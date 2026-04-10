@@ -1,15 +1,22 @@
 name: Main
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
+    inputs:
+      kosli_host:
+        description: 'Kosli host URL'
+        required: true
+        type: string
+      kosli_api_token:
+        description: 'Kosli API token'
+        required: true
+        type: string
 
 env:
-  KOSLI_API_TOKEN: ${{ secrets.KOSLI_API_TOKEN }}
+  KOSLI_API_TOKEN: ${{ inputs.kosli_api_token }}
+  KOSLI_HOST:      ${{ inputs.kosli_host }}
   KOSLI_DEBUG:     ${{ vars.KOSLI_DEBUG }}
   KOSLI_DRY_RUN:   ${{ vars.KOSLI_DRY_RUN }}
-  KOSLI_HOST:      ${{ vars.KOSLI_HOST }}
   KOSLI_ORG:       ${{ vars.KOSLI_ORG }}
   KOSLI_FLOW:      ${{ github.event.repository.name }}-ci
   KOSLI_TRAIL:     ${{ github.sha}}
@@ -98,6 +105,7 @@ jobs:
       image_tag: ${{ needs.setup.outputs.image_tag }}
       image_build_args: |
         COMMIT_SHA=${{ github.sha }}
+      kosli_host: ${{ inputs.kosli_host }}
       kosli_flow: ${{ needs.setup.outputs.kosli_flow }}
       kosli_trail: ${{ needs.setup.outputs.kosli_trail }}
       kosli_reference_name: artifact
