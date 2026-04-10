@@ -94,3 +94,17 @@ jobs:
           url="${KOSLI_HOST}/${KOSLI_ORG}/flows/${KOSLI_FLOW}/trails/${KOSLI_TRAIL}"
           echo "[Kosli Trail](${url})" > "${GITHUB_STEP_SUMMARY}"
 
+  build-image:
+    needs: [setup]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Harden Runner
+        uses: step-security/harden-runner@v2
+        with:
+          egress-policy: audit
+
+      - name: Kosli attest artifact
+        run:
+          kosli attest artifact ./source/datetime.txt
+            --artifact-type file
+            --name artifact
