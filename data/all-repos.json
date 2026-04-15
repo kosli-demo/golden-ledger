@@ -1,5 +1,8 @@
 [
   {
+    "repo_name": "price-index"
+  },
+  {
     "repo_name": "listed-derivative"
   },
   {
@@ -232,9 +235,6 @@
   },
   {
     "repo_name": "optionadjusted-spread"
-  },
-  {
-    "repo_name": "price-index"
   },
   {
     "repo_name": "data-proxy"
