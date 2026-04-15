@@ -1,5 +1,8 @@
 [
   {
+    "repo_name": "listed-derivative"
+  },
+  {
     "repo_name": "data-adapter"
   },
   {
@@ -235,9 +238,6 @@
   },
   {
     "repo_name": "data-proxy"
-  },
-  {
-    "repo_name": "listed-derivative"
   },
   {
     "repo_name": "routing-proxy"
