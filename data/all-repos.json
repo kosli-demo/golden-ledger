@@ -1,1502 +1,2002 @@
 [
   {
-    "repo_name": "price-index"
+    "repo_name": "price-index",
+    "exists": true
   },
   {
-    "repo_name": "listed-derivative"
+    "repo_name": "listed-derivative",
+    "exists": true
   },
   {
-    "repo_name": "data-adapter"
+    "repo_name": "data-adapter",
+    "exists": true
   },
   {
-    "repo_name": "golden-ledger"
+    "repo_name": "golden-ledger",
+    "exists": true
   },
   {
-    "repo_name": "commercial-loan"
+    "repo_name": "commercial-loan",
+    "exists": true
   },
   {
-    "repo_name": "risk-service"
+    "repo_name": "risk-service",
+    "exists": true
   },
   {
-    "repo_name": "syndicated-deal"
+    "repo_name": "syndicated-deal",
+    "exists": true
   },
   {
-    "repo_name": "service-identity"
+    "repo_name": "service-identity",
+    "exists": true
   },
   {
-    "repo_name": "trade-queue"
+    "repo_name": "trade-queue",
+    "exists": true
   },
   {
-    "repo_name": "embedded-compliance"
+    "repo_name": "embedded-compliance",
+    "exists": true
   },
   {
-    "repo_name": "predictive-analytics"
+    "repo_name": "predictive-analytics",
+    "exists": true
   },
   {
-    "repo_name": "excess-liquidity"
+    "repo_name": "excess-liquidity",
+    "exists": true
   },
   {
-    "repo_name": "managed-portfolio"
+    "repo_name": "managed-portfolio",
+    "exists": true
   },
   {
-    "repo_name": "ask-spread"
+    "repo_name": "ask-spread",
+    "exists": true
   },
   {
-    "repo_name": "service-ticket"
+    "repo_name": "service-ticket",
+    "exists": true
   },
   {
-    "repo_name": "bilateral-counterparty"
+    "repo_name": "bilateral-counterparty",
+    "exists": true
   },
   {
-    "repo_name": "instrument-registry"
+    "repo_name": "instrument-registry",
+    "exists": true
   },
   {
-    "repo_name": "preferred-client"
+    "repo_name": "preferred-client",
+    "exists": true
   },
   {
-    "repo_name": "performance-index"
+    "repo_name": "performance-index",
+    "exists": true
   },
   {
-    "repo_name": "stop-order"
+    "repo_name": "stop-order",
+    "exists": true
   },
   {
-    "repo_name": "pending-transaction"
+    "repo_name": "pending-transaction",
+    "exists": true
   },
   {
-    "repo_name": "market-signal"
+    "repo_name": "market-signal",
+    "exists": true
   },
   {
-    "repo_name": "auth-microservice"
+    "repo_name": "auth-microservice",
+    "exists": true
   },
   {
-    "repo_name": "instant-payment"
+    "repo_name": "instant-payment",
+    "exists": true
   },
   {
-    "repo_name": "service-contract"
+    "repo_name": "service-contract",
+    "exists": true
   },
   {
-    "repo_name": "system-credential"
+    "repo_name": "system-credential",
+    "exists": true
   },
   {
-    "repo_name": "concentration-limit"
+    "repo_name": "concentration-limit",
+    "exists": true
   },
   {
-    "repo_name": "automated-audit"
+    "repo_name": "automated-audit",
+    "exists": true
   },
   {
-    "repo_name": "secure-relay"
+    "repo_name": "secure-relay",
+    "exists": true
   },
   {
-    "repo_name": "batch-processor"
+    "repo_name": "batch-processor",
+    "exists": true
   },
   {
-    "repo_name": "netting-exposure"
+    "repo_name": "netting-exposure",
+    "exists": true
   },
   {
-    "repo_name": "bond-issuer"
+    "repo_name": "bond-issuer",
+    "exists": true
   },
   {
-    "repo_name": "matching-engine"
+    "repo_name": "matching-engine",
+    "exists": true
   },
   {
-    "repo_name": "domestic-issuer"
+    "repo_name": "domestic-issuer",
+    "exists": true
   },
   {
-    "repo_name": "server-certificate"
+    "repo_name": "server-certificate",
+    "exists": true
   },
   {
-    "repo_name": "acquiring-merchant"
+    "repo_name": "acquiring-merchant",
+    "exists": true
   },
   {
-    "repo_name": "corporate-bond"
+    "repo_name": "corporate-bond",
+    "exists": true
   },
   {
-    "repo_name": "open-position"
+    "repo_name": "open-position",
+    "exists": true
   },
   {
-    "repo_name": "payment-framework"
+    "repo_name": "payment-framework",
+    "exists": true
   },
   {
-    "repo_name": "trading-account"
+    "repo_name": "trading-account",
+    "exists": true
   },
   {
-    "repo_name": "global-custodian"
+    "repo_name": "global-custodian",
+    "exists": true
   },
   {
-    "repo_name": "asset-catalog"
+    "repo_name": "asset-catalog",
+    "exists": true
   },
   {
-    "repo_name": "automated-validator"
+    "repo_name": "automated-validator",
+    "exists": true
   },
   {
-    "repo_name": "balanced-portfolio"
+    "repo_name": "balanced-portfolio",
+    "exists": true
   },
   {
-    "repo_name": "trading-datamart"
+    "repo_name": "trading-datamart",
+    "exists": true
   },
   {
-    "repo_name": "risk-datamart"
+    "repo_name": "risk-datamart",
+    "exists": true
   },
   {
-    "repo_name": "data-catalog"
+    "repo_name": "data-catalog",
+    "exists": true
   },
   {
-    "repo_name": "proactive-compliance"
+    "repo_name": "proactive-compliance",
+    "exists": true
   },
   {
-    "repo_name": "core-liquidity"
+    "repo_name": "core-liquidity",
+    "exists": true
   },
   {
-    "repo_name": "bearer-token"
+    "repo_name": "bearer-token",
+    "exists": true
   },
   {
-    "repo_name": "current-yield"
+    "repo_name": "current-yield",
+    "exists": true
   },
   {
-    "repo_name": "forward-yield"
+    "repo_name": "forward-yield",
+    "exists": true
   },
   {
-    "repo_name": "transaction-archive"
+    "repo_name": "transaction-archive",
+    "exists": true
   },
   {
-    "repo_name": "order-router"
+    "repo_name": "order-router",
+    "exists": true
   },
   {
-    "repo_name": "revolving-loan"
+    "repo_name": "revolving-loan",
+    "exists": true
   },
   {
-    "repo_name": "format-adapter"
+    "repo_name": "format-adapter",
+    "exists": true
   },
   {
-    "repo_name": "overnight-swap"
+    "repo_name": "overnight-swap",
+    "exists": true
   },
   {
-    "repo_name": "legal-contract"
+    "repo_name": "legal-contract",
+    "exists": true
   },
   {
-    "repo_name": "margin-calculator"
+    "repo_name": "margin-calculator",
+    "exists": true
   },
   {
-    "repo_name": "risk-notification"
+    "repo_name": "risk-notification",
+    "exists": true
   },
   {
-    "repo_name": "domestic-payment"
+    "repo_name": "domestic-payment",
+    "exists": true
   },
   {
-    "repo_name": "internal-audit"
+    "repo_name": "internal-audit",
+    "exists": true
   },
   {
-    "repo_name": "registered-merchant"
+    "repo_name": "registered-merchant",
+    "exists": true
   },
   {
-    "repo_name": "net-settlement"
+    "repo_name": "net-settlement",
+    "exists": true
   },
   {
-    "repo_name": "digital-wallet"
+    "repo_name": "digital-wallet",
+    "exists": true
   },
   {
-    "repo_name": "realtime-stream"
+    "repo_name": "realtime-stream",
+    "exists": true
   },
   {
-    "repo_name": "trade-statement"
+    "repo_name": "trade-statement",
+    "exists": true
   },
   {
-    "repo_name": "digital-audit"
+    "repo_name": "digital-audit",
+    "exists": true
   },
   {
-    "repo_name": "trade-registry"
+    "repo_name": "trade-registry",
+    "exists": true
   },
   {
-    "repo_name": "trade-warehouse"
+    "repo_name": "trade-warehouse",
+    "exists": true
   },
   {
-    "repo_name": "online-merchant"
+    "repo_name": "online-merchant",
+    "exists": true
   },
   {
-    "repo_name": "api-key"
+    "repo_name": "api-key",
+    "exists": true
   },
   {
-    "repo_name": "junior-bond"
+    "repo_name": "junior-bond",
+    "exists": true
   },
   {
-    "repo_name": "domestic-customer"
+    "repo_name": "domestic-customer",
+    "exists": true
   },
   {
-    "repo_name": "retail-forex"
+    "repo_name": "retail-forex",
+    "exists": true
   },
   {
-    "repo_name": "risk-module"
+    "repo_name": "risk-module",
+    "exists": true
   },
   {
-    "repo_name": "data-framework"
+    "repo_name": "data-framework",
+    "exists": true
   },
   {
-    "repo_name": "credit-risk"
+    "repo_name": "credit-risk",
+    "exists": true
   },
   {
-    "repo_name": "optionadjusted-spread"
+    "repo_name": "optionadjusted-spread",
+    "exists": true
   },
   {
-    "repo_name": "data-proxy"
+    "repo_name": "data-proxy",
+    "exists": true
   },
   {
-    "repo_name": "routing-proxy"
+    "repo_name": "routing-proxy",
+    "exists": true
   },
   {
-    "repo_name": "smart-router"
+    "repo_name": "smart-router",
+    "exists": true
   },
   {
-    "repo_name": "retail-broker"
+    "repo_name": "retail-broker",
+    "exists": true
   },
   {
-    "repo_name": "prime-broker"
+    "repo_name": "prime-broker",
+    "exists": true
   },
   {
-    "repo_name": "event-dispatcher"
+    "repo_name": "event-dispatcher",
+    "exists": true
   },
   {
-    "repo_name": "long-position"
+    "repo_name": "long-position",
+    "exists": true
   },
   {
-    "repo_name": "benchmark-rate"
+    "repo_name": "benchmark-rate",
+    "exists": true
   },
   {
-    "repo_name": "push-notification"
+    "repo_name": "push-notification",
+    "exists": true
   },
   {
-    "repo_name": "risk-trigger"
+    "repo_name": "risk-trigger",
+    "exists": true
   },
   {
-    "repo_name": "gross-settlement"
+    "repo_name": "gross-settlement",
+    "exists": true
   },
   {
-    "repo_name": "preferred-customer"
+    "repo_name": "preferred-customer",
+    "exists": true
   },
   {
-    "repo_name": "risk-framework"
+    "repo_name": "risk-framework",
+    "exists": true
   },
   {
-    "repo_name": "master-contract"
+    "repo_name": "master-contract",
+    "exists": true
   },
   {
-    "repo_name": "zerocoupon-spread"
+    "repo_name": "zerocoupon-spread",
+    "exists": true
   },
   {
-    "repo_name": "atomic-transaction"
+    "repo_name": "atomic-transaction",
+    "exists": true
   },
   {
-    "repo_name": "trading-agent"
+    "repo_name": "trading-agent",
+    "exists": true
   },
   {
-    "repo_name": "breach-threshold"
+    "repo_name": "breach-threshold",
+    "exists": true
   },
   {
-    "repo_name": "report-scheduler"
+    "repo_name": "report-scheduler",
+    "exists": true
   },
   {
-    "repo_name": "data-gateway"
+    "repo_name": "data-gateway",
+    "exists": true
   },
   {
-    "repo_name": "exchange-connector"
+    "repo_name": "exchange-connector",
+    "exists": true
   },
   {
-    "repo_name": "data-relay"
+    "repo_name": "data-relay",
+    "exists": false
   },
   {
-    "repo_name": "market-risk"
+    "repo_name": "market-risk",
+    "exists": false
   },
   {
-    "repo_name": "event-queue"
+    "repo_name": "event-queue",
+    "exists": false
   },
   {
-    "repo_name": "integration-framework"
+    "repo_name": "integration-framework",
+    "exists": false
   },
   {
-    "repo_name": "private-equity"
+    "repo_name": "private-equity",
+    "exists": false
   },
   {
-    "repo_name": "direct-counterparty"
+    "repo_name": "direct-counterparty",
+    "exists": false
   },
   {
-    "repo_name": "market-alert"
+    "repo_name": "market-alert",
+    "exists": false
   },
   {
-    "repo_name": "credit-limit"
+    "repo_name": "credit-limit",
+    "exists": false
   },
   {
-    "repo_name": "market-event"
+    "repo_name": "market-event",
+    "exists": false
   },
   {
-    "repo_name": "short-position"
+    "repo_name": "short-position",
+    "exists": false
   },
   {
-    "repo_name": "testing-framework"
+    "repo_name": "testing-framework",
+    "exists": false
   },
   {
-    "repo_name": "alert-message"
+    "repo_name": "alert-message",
+    "exists": false
   },
   {
-    "repo_name": "performance-report"
+    "repo_name": "performance-report",
+    "exists": false
   },
   {
-    "repo_name": "data-worker"
+    "repo_name": "data-worker",
+    "exists": false
   },
   {
-    "repo_name": "smart-contract"
+    "repo_name": "smart-contract",
+    "exists": false
   },
   {
-    "repo_name": "benchmark-yield"
+    "repo_name": "benchmark-yield",
+    "exists": false
   },
   {
-    "repo_name": "client-datamart"
+    "repo_name": "client-datamart",
+    "exists": false
   },
   {
-    "repo_name": "api-proxy"
+    "repo_name": "api-proxy",
+    "exists": false
   },
   {
-    "repo_name": "realtime-transaction"
+    "repo_name": "realtime-transaction",
+    "exists": false
   },
   {
-    "repo_name": "regulatory-archive"
+    "repo_name": "regulatory-archive",
+    "exists": false
   },
   {
-    "repo_name": "trade-router"
+    "repo_name": "trade-router",
+    "exists": false
   },
   {
-    "repo_name": "risk-monitor"
+    "repo_name": "risk-monitor",
+    "exists": false
   },
   {
-    "repo_name": "transaction-analytics"
+    "repo_name": "transaction-analytics",
+    "exists": false
   },
   {
-    "repo_name": "public-equity"
+    "repo_name": "public-equity",
+    "exists": false
   },
   {
-    "repo_name": "trade-reporting"
+    "repo_name": "trade-reporting",
+    "exists": false
   },
   {
-    "repo_name": "market-connector"
+    "repo_name": "market-connector",
+    "exists": false
   },
   {
-    "repo_name": "resilient-pipeline"
+    "repo_name": "resilient-pipeline",
+    "exists": false
   },
   {
-    "repo_name": "core-service"
+    "repo_name": "core-service",
+    "exists": false
   },
   {
-    "repo_name": "message-processor"
+    "repo_name": "message-processor",
+    "exists": false
   },
   {
-    "repo_name": "market-index"
+    "repo_name": "market-index",
+    "exists": false
   },
   {
-    "repo_name": "analytics-platform"
+    "repo_name": "analytics-platform",
+    "exists": false
   },
   {
-    "repo_name": "digital-identity"
+    "repo_name": "digital-identity",
+    "exists": false
   },
   {
-    "repo_name": "schema-validator"
+    "repo_name": "schema-validator",
+    "exists": false
   },
   {
-    "repo_name": "automated-invoice"
+    "repo_name": "automated-invoice",
+    "exists": false
   },
   {
-    "repo_name": "continuous-audit"
+    "repo_name": "continuous-audit",
+    "exists": false
   },
   {
-    "repo_name": "payment-worker"
+    "repo_name": "payment-worker",
+    "exists": false
   },
   {
-    "repo_name": "position-statement"
+    "repo_name": "position-statement",
+    "exists": false
   },
   {
-    "repo_name": "unified-wallet"
+    "repo_name": "unified-wallet",
+    "exists": true
   },
   {
-    "repo_name": "senior-bond"
+    "repo_name": "senior-bond",
+    "exists": false
   },
   {
-    "repo_name": "job-scheduler"
+    "repo_name": "job-scheduler",
+    "exists": false
   },
   {
-    "repo_name": "payment-bridge"
+    "repo_name": "payment-bridge",
+    "exists": false
   },
   {
-    "repo_name": "risk-warehouse"
+    "repo_name": "risk-warehouse",
+    "exists": false
   },
   {
-    "repo_name": "central-counterparty"
+    "repo_name": "central-counterparty",
+    "exists": false
   },
   {
-    "repo_name": "payment-gateway"
+    "repo_name": "payment-gateway",
+    "exists": false
   },
   {
-    "repo_name": "write-permission"
+    "repo_name": "write-permission",
+    "exists": false
   },
   {
-    "repo_name": "client-identity"
+    "repo_name": "client-identity",
+    "exists": false
   },
   {
-    "repo_name": "secured-loan"
+    "repo_name": "secured-loan",
+    "exists": false
   },
   {
-    "repo_name": "message-router"
+    "repo_name": "message-router",
+    "exists": false
   },
   {
-    "repo_name": "realtime-analytics"
+    "repo_name": "realtime-analytics",
+    "exists": false
   },
   {
-    "repo_name": "fixed-rate"
+    "repo_name": "fixed-rate",
+    "exists": false
   },
   {
-    "repo_name": "prop-trader"
+    "repo_name": "prop-trader",
+    "exists": false
   },
   {
-    "repo_name": "service-credential"
+    "repo_name": "service-credential",
+    "exists": false
   },
   {
-    "repo_name": "pricing-module"
+    "repo_name": "pricing-module",
+    "exists": false
   },
   {
-    "repo_name": "encryption-key"
+    "repo_name": "encryption-key",
+    "exists": false
   },
   {
-    "repo_name": "risk-analytics"
+    "repo_name": "risk-analytics",
+    "exists": false
   },
   {
-    "repo_name": "escrow-account"
+    "repo_name": "escrow-account",
+    "exists": false
   },
   {
-    "repo_name": "settlement-engine"
+    "repo_name": "settlement-engine",
+    "exists": false
   },
   {
-    "repo_name": "financial-reporting"
+    "repo_name": "financial-reporting",
+    "exists": false
   },
   {
-    "repo_name": "approval-workflow"
+    "repo_name": "approval-workflow",
+    "exists": false
   },
   {
-    "repo_name": "instrument-catalog"
+    "repo_name": "instrument-catalog",
+    "exists": false
   },
   {
-    "repo_name": "fee-calculator"
+    "repo_name": "fee-calculator",
+    "exists": false
   },
   {
-    "repo_name": "realtime-reconciliation"
+    "repo_name": "realtime-reconciliation",
+    "exists": false
   },
   {
-    "repo_name": "event-orchestrator"
+    "repo_name": "event-orchestrator",
+    "exists": false
   },
   {
-    "repo_name": "payment-scheduler"
+    "repo_name": "payment-scheduler",
+    "exists": false
   },
   {
-    "repo_name": "document-archive"
+    "repo_name": "document-archive",
+    "exists": false
   },
   {
-    "repo_name": "continuous-monitor"
+    "repo_name": "continuous-monitor",
+    "exists": false
   },
   {
-    "repo_name": "novation-clearing"
+    "repo_name": "novation-clearing",
+    "exists": false
   },
   {
-    "repo_name": "reference-cache"
+    "repo_name": "reference-cache",
+    "exists": false
   },
   {
-    "repo_name": "local-custodian"
+    "repo_name": "local-custodian",
+    "exists": false
   },
   {
-    "repo_name": "digital-custody"
+    "repo_name": "digital-custody",
+    "exists": false
   },
   {
-    "repo_name": "performance-monitor"
+    "repo_name": "performance-monitor",
+    "exists": false
   },
   {
-    "repo_name": "data-transformer"
+    "repo_name": "data-transformer",
+    "exists": false
   },
   {
-    "repo_name": "pricing-engine"
+    "repo_name": "pricing-engine",
+    "exists": false
   },
   {
-    "repo_name": "otc-derivative"
+    "repo_name": "otc-derivative",
+    "exists": false
   },
   {
-    "repo_name": "price-trigger"
+    "repo_name": "price-trigger",
+    "exists": false
   },
   {
-    "repo_name": "options-trade"
+    "repo_name": "options-trade",
+    "exists": false
   },
   {
-    "repo_name": "totalreturn-swap"
+    "repo_name": "totalreturn-swap",
+    "exists": false
   },
   {
-    "repo_name": "institutional-client"
+    "repo_name": "institutional-client",
+    "exists": false
   },
   {
-    "repo_name": "payment-microservice"
+    "repo_name": "payment-microservice",
+    "exists": false
   },
   {
-    "repo_name": "federated-identity"
+    "repo_name": "federated-identity",
+    "exists": false
   },
   {
-    "repo_name": "event-pipeline"
+    "repo_name": "event-pipeline",
+    "exists": false
   },
   {
-    "repo_name": "derivative-contract"
+    "repo_name": "derivative-contract",
+    "exists": false
   },
   {
-    "repo_name": "trade-message"
+    "repo_name": "trade-message",
+    "exists": false
   },
   {
-    "repo_name": "syndicated-loan"
+    "repo_name": "syndicated-loan",
+    "exists": false
   },
   {
-    "repo_name": "corporate-identity"
+    "repo_name": "corporate-identity",
+    "exists": false
   },
   {
-    "repo_name": "digital-custodian"
+    "repo_name": "digital-custodian",
+    "exists": false
   },
   {
-    "repo_name": "regulatory-compliance"
+    "repo_name": "regulatory-compliance",
+    "exists": false
   },
   {
-    "repo_name": "compliance-alert"
+    "repo_name": "compliance-alert",
+    "exists": false
   },
   {
-    "repo_name": "riskfree-yield"
+    "repo_name": "riskfree-yield",
+    "exists": false
   },
   {
-    "repo_name": "trading-limit"
+    "repo_name": "trading-limit",
+    "exists": false
   },
   {
-    "repo_name": "exotic-derivative"
+    "repo_name": "exotic-derivative",
+    "exists": false
   },
   {
-    "repo_name": "reporting-threshold"
+    "repo_name": "reporting-threshold",
+    "exists": false
   },
   {
-    "repo_name": "net-position"
+    "repo_name": "net-position",
+    "exists": false
   },
   {
-    "repo_name": "barrier-option"
+    "repo_name": "barrier-option",
+    "exists": false
   },
   {
-    "repo_name": "data-bridge"
+    "repo_name": "data-bridge",
+    "exists": false
   },
   {
-    "repo_name": "negotiated-deal"
+    "repo_name": "negotiated-deal",
+    "exists": false
   },
   {
-    "repo_name": "api-credential"
+    "repo_name": "api-credential",
+    "exists": false
   },
   {
-    "repo_name": "overnight-rate"
+    "repo_name": "overnight-rate",
+    "exists": false
   },
   {
-    "repo_name": "compliance-platform"
+    "repo_name": "compliance-platform",
+    "exists": false
   },
   {
-    "repo_name": "priority-ticket"
+    "repo_name": "priority-ticket",
+    "exists": false
   },
   {
-    "repo_name": "credit-spread"
+    "repo_name": "credit-spread",
+    "exists": false
   },
   {
-    "repo_name": "trade-notification"
+    "repo_name": "trade-notification",
+    "exists": false
   },
   {
-    "repo_name": "data-pipeline"
+    "repo_name": "data-pipeline",
+    "exists": false
   },
   {
-    "repo_name": "atomic-ledger"
+    "repo_name": "atomic-ledger",
+    "exists": true
   },
   {
-    "repo_name": "vault-credential"
+    "repo_name": "vault-credential",
+    "exists": false
   },
   {
-    "repo_name": "margin-account"
+    "repo_name": "margin-account",
+    "exists": false
   },
   {
-    "repo_name": "service-catalog"
+    "repo_name": "service-catalog",
+    "exists": false
   },
   {
-    "repo_name": "international-issuer"
+    "repo_name": "international-issuer",
+    "exists": false
   },
   {
-    "repo_name": "trade-webhook"
+    "repo_name": "trade-webhook",
+    "exists": false
   },
   {
-    "repo_name": "structured-deal"
+    "repo_name": "structured-deal",
+    "exists": false
   },
   {
-    "repo_name": "common-equity"
+    "repo_name": "common-equity",
+    "exists": false
   },
   {
-    "repo_name": "reporting-currency"
+    "repo_name": "reporting-currency",
+    "exists": false
   },
   {
-    "repo_name": "admin-permission"
+    "repo_name": "admin-permission",
+    "exists": false
   },
   {
-    "repo_name": "covered-mortgage"
+    "repo_name": "covered-mortgage",
+    "exists": false
   },
   {
-    "repo_name": "data-warehouse"
+    "repo_name": "data-warehouse",
+    "exists": false
   },
   {
-    "repo_name": "api-bridge"
+    "repo_name": "api-bridge",
+    "exists": false
   },
   {
-    "repo_name": "user-credential"
+    "repo_name": "user-credential",
+    "exists": false
   },
   {
-    "repo_name": "cold-wallet"
+    "repo_name": "cold-wallet",
+    "exists": true
   },
   {
-    "repo_name": "payment-processor"
+    "repo_name": "payment-processor",
+    "exists": false
   },
   {
-    "repo_name": "token-issuer"
+    "repo_name": "token-issuer",
+    "exists": false
   },
   {
-    "repo_name": "model-transformer"
+    "repo_name": "model-transformer",
+    "exists": false
   },
   {
-    "repo_name": "iceberg-order"
+    "repo_name": "iceberg-order",
+    "exists": false
   },
   {
-    "repo_name": "bilateral-deal"
+    "repo_name": "bilateral-deal",
+    "exists": false
   },
   {
-    "repo_name": "swift-connector"
+    "repo_name": "swift-connector",
+    "exists": false
   },
   {
-    "repo_name": "hot-wallet"
+    "repo_name": "hot-wallet",
+    "exists": true
   },
   {
-    "repo_name": "payment-router"
+    "repo_name": "payment-router",
+    "exists": false
   },
   {
-    "repo_name": "compliance-trigger"
+    "repo_name": "compliance-trigger",
+    "exists": false
   },
   {
-    "repo_name": "preferred-merchant"
+    "repo_name": "preferred-merchant",
+    "exists": false
   },
   {
-    "repo_name": "protocol-adapter"
+    "repo_name": "protocol-adapter",
+    "exists": false
   },
   {
-    "repo_name": "liquidity-risk"
+    "repo_name": "liquidity-risk",
+    "exists": false
   },
   {
-    "repo_name": "crossborder-payment"
+    "repo_name": "crossborder-payment",
+    "exists": false
   },
   {
-    "repo_name": "base-currency"
+    "repo_name": "base-currency",
+    "exists": false
   },
   {
-    "repo_name": "ndf-forex"
+    "repo_name": "ndf-forex",
+    "exists": false
   },
   {
-    "repo_name": "market-order"
+    "repo_name": "market-order",
+    "exists": false
   },
   {
-    "repo_name": "daily-statement"
+    "repo_name": "daily-statement",
+    "exists": false
   },
   {
-    "repo_name": "currency-swap"
+    "repo_name": "currency-swap",
+    "exists": false
   },
   {
-    "repo_name": "distributed-cache"
+    "repo_name": "distributed-cache",
+    "exists": false
   },
   {
-    "repo_name": "risk-trader"
+    "repo_name": "risk-trader",
+    "exists": false
   },
   {
-    "repo_name": "credit-event"
+    "repo_name": "credit-event",
+    "exists": false
   },
   {
-    "repo_name": "global-custody"
+    "repo_name": "global-custody",
+    "exists": false
   },
   {
-    "repo_name": "american-option"
+    "repo_name": "american-option",
+    "exists": false
   },
   {
-    "repo_name": "admin-role"
+    "repo_name": "admin-role",
+    "exists": false
   },
   {
-    "repo_name": "risk-limit"
+    "repo_name": "risk-limit",
+    "exists": false
   },
   {
-    "repo_name": "system-event"
+    "repo_name": "system-event",
+    "exists": false
   },
   {
-    "repo_name": "client-certificate"
+    "repo_name": "client-certificate",
+    "exists": false
   },
   {
-    "repo_name": "risk-worker"
+    "repo_name": "risk-worker",
+    "exists": false
   },
   {
-    "repo_name": "executing-broker"
+    "repo_name": "executing-broker",
+    "exists": false
   },
   {
-    "repo_name": "daily-report"
+    "repo_name": "daily-report",
+    "exists": false
   },
   {
-    "repo_name": "signing-key"
+    "repo_name": "signing-key",
+    "exists": false
   },
   {
-    "repo_name": "preferred-equity"
+    "repo_name": "preferred-equity",
+    "exists": false
   },
   {
-    "repo_name": "read-permission"
+    "repo_name": "read-permission",
+    "exists": false
   },
   {
-    "repo_name": "secure-gateway"
+    "repo_name": "secure-gateway",
+    "exists": false
   },
   {
-    "repo_name": "data-aggregator"
+    "repo_name": "data-aggregator",
+    "exists": false
   },
   {
-    "repo_name": "local-currency"
+    "repo_name": "local-currency",
+    "exists": false
   },
   {
-    "repo_name": "regulatory-datamart"
+    "repo_name": "regulatory-datamart",
+    "exists": false
   },
   {
-    "repo_name": "performance-signal"
+    "repo_name": "performance-signal",
+    "exists": false
   },
   {
-    "repo_name": "risk-platform"
+    "repo_name": "risk-platform",
+    "exists": false
   },
   {
-    "repo_name": "private-client"
+    "repo_name": "private-client",
+    "exists": false
   },
   {
-    "repo_name": "prime-custodian"
+    "repo_name": "prime-custodian",
+    "exists": false
   },
   {
-    "repo_name": "continuous-clearing"
+    "repo_name": "continuous-clearing",
+    "exists": false
   },
   {
-    "repo_name": "issuing-merchant"
+    "repo_name": "issuing-merchant",
+    "exists": false
   },
   {
-    "repo_name": "contingent-liquidity"
+    "repo_name": "contingent-liquidity",
+    "exists": false
   },
   {
-    "repo_name": "secured-credit"
+    "repo_name": "secured-credit",
+    "exists": false
   },
   {
-    "repo_name": "trade-workflow"
+    "repo_name": "trade-workflow",
+    "exists": false
   },
   {
-    "repo_name": "price-stream"
+    "repo_name": "price-stream",
+    "exists": false
   },
   {
-    "repo_name": "conditional-order"
+    "repo_name": "conditional-order",
+    "exists": false
   },
   {
-    "repo_name": "alert-webhook"
+    "repo_name": "alert-webhook",
+    "exists": false
   },
   {
-    "repo_name": "market-cache"
+    "repo_name": "market-cache",
+    "exists": false
   },
   {
-    "repo_name": "canonical-ledger"
+    "repo_name": "canonical-ledger",
+    "exists": true
   },
   {
-    "repo_name": "message-queue"
+    "repo_name": "message-queue",
+    "exists": false
   },
   {
-    "repo_name": "service-role"
+    "repo_name": "service-role",
+    "exists": false
   },
   {
-    "repo_name": "risk-index"
+    "repo_name": "risk-index",
+    "exists": false
   },
   {
-    "repo_name": "clearing-broker"
+    "repo_name": "clearing-broker",
+    "exists": false
   },
   {
-    "repo_name": "final-settlement"
+    "repo_name": "final-settlement",
+    "exists": false
   },
   {
-    "repo_name": "priority-message"
+    "repo_name": "priority-message",
+    "exists": false
   },
   {
-    "repo_name": "operational-risk"
+    "repo_name": "operational-risk",
+    "exists": false
   },
   {
-    "repo_name": "corporate-client"
+    "repo_name": "corporate-client",
+    "exists": false
   },
   {
-    "repo_name": "system-message"
+    "repo_name": "system-message",
+    "exists": false
   },
   {
-    "repo_name": "automated-trigger"
+    "repo_name": "automated-trigger",
+    "exists": false
   },
   {
-    "repo_name": "trader-role"
+    "repo_name": "trader-role",
+    "exists": false
   },
   {
-    "repo_name": "trade-aggregator"
+    "repo_name": "trade-aggregator",
+    "exists": false
   },
   {
-    "repo_name": "floating-rate"
+    "repo_name": "floating-rate",
+    "exists": false
   },
   {
-    "repo_name": "immutable-ledger"
+    "repo_name": "immutable-ledger",
+    "exists": true
   },
   {
-    "repo_name": "rules-engine"
+    "repo_name": "rules-engine",
+    "exists": false
   },
   {
-    "repo_name": "trading-gateway"
+    "repo_name": "trading-gateway",
+    "exists": false
   },
   {
-    "repo_name": "regulatory-reporting"
+    "repo_name": "regulatory-reporting",
+    "exists": false
   },
   {
-    "repo_name": "currency-transformer"
+    "repo_name": "currency-transformer",
+    "exists": false
   },
   {
-    "repo_name": "schema-transformer"
+    "repo_name": "schema-transformer",
+    "exists": false
   },
   {
-    "repo_name": "payment-webhook"
+    "repo_name": "payment-webhook",
+    "exists": false
   },
   {
-    "repo_name": "sovereign-bond"
+    "repo_name": "sovereign-bond",
+    "exists": false
   },
   {
-    "repo_name": "product-registry"
+    "repo_name": "product-registry",
+    "exists": false
   },
   {
-    "repo_name": "algorithmic-trader"
+    "repo_name": "algorithmic-trader",
+    "exists": false
   },
   {
-    "repo_name": "counterparty-exposure"
+    "repo_name": "counterparty-exposure",
+    "exists": false
   },
   {
-    "repo_name": "risk-aggregator"
+    "repo_name": "risk-aggregator",
+    "exists": false
   },
   {
-    "repo_name": "trade-dispatcher"
+    "repo_name": "trade-dispatcher",
+    "exists": false
   },
   {
-    "repo_name": "trading-signal"
+    "repo_name": "trading-signal",
+    "exists": false
   },
   {
-    "repo_name": "trade-validator"
+    "repo_name": "trade-validator",
+    "exists": false
   },
   {
-    "repo_name": "instant-settlement"
+    "repo_name": "instant-settlement",
+    "exists": false
   },
   {
-    "repo_name": "central-vault"
+    "repo_name": "central-vault",
+    "exists": true
   },
   {
-    "repo_name": "vostro-account"
+    "repo_name": "vostro-account",
+    "exists": false
   },
   {
-    "repo_name": "compliance-workflow"
+    "repo_name": "compliance-workflow",
+    "exists": false
   },
   {
-    "repo_name": "position-trigger"
+    "repo_name": "position-trigger",
+    "exists": false
   },
   {
-    "repo_name": "trade-orchestrator"
+    "repo_name": "trade-orchestrator",
+    "exists": false
   },
   {
-    "repo_name": "revolving-credit"
+    "repo_name": "revolving-credit",
+    "exists": false
   },
   {
-    "repo_name": "capital-threshold"
+    "repo_name": "capital-threshold",
+    "exists": false
   },
   {
-    "repo_name": "position-reconciliation"
+    "repo_name": "position-reconciliation",
+    "exists": false
   },
   {
-    "repo_name": "central-warehouse"
+    "repo_name": "central-warehouse",
+    "exists": false
   },
   {
-    "repo_name": "api-connector"
+    "repo_name": "api-connector",
+    "exists": false
   },
   {
-    "repo_name": "payment-orchestrator"
+    "repo_name": "payment-orchestrator",
+    "exists": false
   },
   {
-    "repo_name": "scheduled-payment"
+    "repo_name": "scheduled-payment",
+    "exists": false
   },
   {
-    "repo_name": "binary-option"
+    "repo_name": "binary-option",
+    "exists": false
   },
   {
-    "repo_name": "spot-trade"
+    "repo_name": "spot-trade",
+    "exists": false
   },
   {
-    "repo_name": "risk-engine"
+    "repo_name": "risk-engine",
+    "exists": false
   },
   {
-    "repo_name": "trading-platform"
+    "repo_name": "trading-platform",
+    "exists": false
   },
   {
-    "repo_name": "order-aggregator"
+    "repo_name": "order-aggregator",
+    "exists": false
   },
   {
-    "repo_name": "position-aggregator"
+    "repo_name": "position-aggregator",
+    "exists": false
   },
   {
-    "repo_name": "credit-signal"
+    "repo_name": "credit-signal",
+    "exists": false
   },
   {
-    "repo_name": "trade-permission"
+    "repo_name": "trade-permission",
+    "exists": false
   },
   {
-    "repo_name": "daily-reconciliation"
+    "repo_name": "daily-reconciliation",
+    "exists": false
   },
   {
-    "repo_name": "convertible-bond"
+    "repo_name": "convertible-bond",
+    "exists": false
   },
   {
-    "repo_name": "institutional-forex"
+    "repo_name": "institutional-forex",
+    "exists": false
   },
   {
-    "repo_name": "prime-custody"
+    "repo_name": "prime-custody",
+    "exists": false
   },
   {
-    "repo_name": "digital-vault"
+    "repo_name": "digital-vault",
+    "exists": true
   },
   {
-    "repo_name": "credit-swap"
+    "repo_name": "credit-swap",
+    "exists": false
   },
   {
-    "repo_name": "payment-relay"
+    "repo_name": "payment-relay",
+    "exists": false
   },
   {
-    "repo_name": "secure-token"
+    "repo_name": "secure-token",
+    "exists": false
   },
   {
-    "repo_name": "asian-option"
+    "repo_name": "asian-option",
+    "exists": false
   },
   {
-    "repo_name": "refresh-token"
+    "repo_name": "refresh-token",
+    "exists": false
   },
   {
-    "repo_name": "risk-microservice"
+    "repo_name": "risk-microservice",
+    "exists": false
   },
   {
-    "repo_name": "system-webhook"
+    "repo_name": "system-webhook",
+    "exists": false
   },
   {
-    "repo_name": "sub-custody"
+    "repo_name": "sub-custody",
+    "exists": false
   },
   {
-    "repo_name": "realtime-monitor"
+    "repo_name": "realtime-monitor",
+    "exists": false
   },
   {
-    "repo_name": "compliance-event"
+    "repo_name": "compliance-event",
+    "exists": false
   },
   {
-    "repo_name": "external-audit"
+    "repo_name": "external-audit",
+    "exists": false
   },
   {
-    "repo_name": "central-clearing"
+    "repo_name": "central-clearing",
+    "exists": false
   },
   {
-    "repo_name": "payment-message"
+    "repo_name": "payment-message",
+    "exists": false
   },
   {
-    "repo_name": "dual-currency"
+    "repo_name": "dual-currency",
+    "exists": false
   },
   {
-    "repo_name": "access-token"
+    "repo_name": "access-token",
+    "exists": false
   },
   {
-    "repo_name": "nostro-account"
+    "repo_name": "nostro-account",
+    "exists": false
   },
   {
-    "repo_name": "session-cache"
+    "repo_name": "session-cache",
+    "exists": false
   },
   {
-    "repo_name": "alert-threshold"
+    "repo_name": "alert-threshold",
+    "exists": false
   },
   {
-    "repo_name": "unsecured-credit"
+    "repo_name": "unsecured-credit",
+    "exists": false
   },
   {
-    "repo_name": "legacy-adapter"
+    "repo_name": "legacy-adapter",
+    "exists": false
   },
   {
-    "repo_name": "quantitative-trader"
+    "repo_name": "quantitative-trader",
+    "exists": false
   },
   {
-    "repo_name": "term-loan"
+    "repo_name": "term-loan",
+    "exists": false
   },
   {
-    "repo_name": "institutional-trader"
+    "repo_name": "institutional-trader",
+    "exists": false
   },
   {
-    "repo_name": "institutional-broker"
+    "repo_name": "institutional-broker",
+    "exists": false
   },
   {
-    "repo_name": "retail-client"
+    "repo_name": "retail-client",
+    "exists": false
   },
   {
-    "repo_name": "batch-scheduler"
+    "repo_name": "batch-scheduler",
+    "exists": false
   },
   {
-    "repo_name": "clearing-counterparty"
+    "repo_name": "clearing-counterparty",
+    "exists": false
   },
   {
-    "repo_name": "incident-ticket"
+    "repo_name": "incident-ticket",
+    "exists": false
   },
   {
-    "repo_name": "batch-transaction"
+    "repo_name": "batch-transaction",
+    "exists": false
   },
   {
-    "repo_name": "encrypted-vault"
+    "repo_name": "encrypted-vault",
+    "exists": true
   },
   {
-    "repo_name": "recurring-payment"
+    "repo_name": "recurring-payment",
+    "exists": false
   },
   {
-    "repo_name": "regulatory-report"
+    "repo_name": "regulatory-report",
+    "exists": false
   },
   {
-    "repo_name": "payment-service"
+    "repo_name": "payment-service",
+    "exists": false
   },
   {
-    "repo_name": "forward-forex"
+    "repo_name": "forward-forex",
+    "exists": false
   },
   {
-    "repo_name": "signing-certificate"
+    "repo_name": "signing-certificate",
+    "exists": false
   },
   {
-    "repo_name": "data-validator"
+    "repo_name": "data-validator",
+    "exists": false
   },
   {
-    "repo_name": "format-transformer"
+    "repo_name": "format-transformer",
+    "exists": false
   },
   {
-    "repo_name": "vanilla-derivative"
+    "repo_name": "vanilla-derivative",
+    "exists": false
   },
   {
-    "repo_name": "secure-vault"
+    "repo_name": "secure-vault",
+    "exists": true
   },
   {
-    "repo_name": "prime-credit"
+    "repo_name": "prime-credit",
+    "exists": false
   },
   {
-    "repo_name": "hybrid-mortgage"
+    "repo_name": "hybrid-mortgage",
+    "exists": false
   },
   {
-    "repo_name": "position-limit"
+    "repo_name": "position-limit",
+    "exists": false
   },
   {
-    "repo_name": "payment-adapter"
+    "repo_name": "payment-adapter",
+    "exists": false
   },
   {
-    "repo_name": "order-dispatcher"
+    "repo_name": "order-dispatcher",
+    "exists": false
   },
   {
-    "repo_name": "system-alert"
+    "repo_name": "system-alert",
+    "exists": false
   },
   {
-    "repo_name": "trade-report"
+    "repo_name": "trade-report",
+    "exists": false
   },
   {
-    "repo_name": "bilateral-clearing"
+    "repo_name": "bilateral-clearing",
+    "exists": false
   },
   {
-    "repo_name": "compliance-module"
+    "repo_name": "compliance-module",
+    "exists": false
   },
   {
-    "repo_name": "stress-liquidity"
+    "repo_name": "stress-liquidity",
+    "exists": false
   },
   {
-    "repo_name": "data-connector"
+    "repo_name": "data-connector",
+    "exists": false
   },
   {
-    "repo_name": "business-validator"
+    "repo_name": "business-validator",
+    "exists": false
   },
   {
-    "repo_name": "realtime-clearing"
+    "repo_name": "realtime-clearing",
+    "exists": false
   },
   {
-    "repo_name": "support-ticket"
+    "repo_name": "support-ticket",
+    "exists": false
   },
   {
-    "repo_name": "client-invoice"
+    "repo_name": "client-invoice",
+    "exists": false
   },
   {
-    "repo_name": "settlement-invoice"
+    "repo_name": "settlement-invoice",
+    "exists": false
   },
   {
-    "repo_name": "compliance-role"
+    "repo_name": "compliance-role",
+    "exists": false
   },
   {
-    "repo_name": "monitoring-agent"
+    "repo_name": "monitoring-agent",
+    "exists": false
   },
   {
-    "repo_name": "entity-registry"
+    "repo_name": "entity-registry",
+    "exists": false
   },
   {
-    "repo_name": "realtime-reporting"
+    "repo_name": "realtime-reporting",
+    "exists": false
   },
   {
-    "repo_name": "block-trade"
+    "repo_name": "block-trade",
+    "exists": false
   },
   {
-    "repo_name": "compliance-notification"
+    "repo_name": "compliance-notification",
+    "exists": false
   },
   {
-    "repo_name": "proforma-invoice"
+    "repo_name": "proforma-invoice",
+    "exists": false
   },
   {
-    "repo_name": "aggregated-exposure"
+    "repo_name": "aggregated-exposure",
+    "exists": false
   },
   {
-    "repo_name": "distributed-ledger"
+    "repo_name": "distributed-ledger",
+    "exists": true
   },
   {
-    "repo_name": "risk-calculator"
+    "repo_name": "risk-calculator",
+    "exists": false
   },
   {
-    "repo_name": "intermediate-certificate"
+    "repo_name": "intermediate-certificate",
+    "exists": false
   },
   {
-    "repo_name": "risk-threshold"
+    "repo_name": "risk-threshold",
+    "exists": false
   },
   {
-    "repo_name": "message-dispatcher"
+    "repo_name": "message-dispatcher",
+    "exists": false
   },
   {
-    "repo_name": "dividend-yield"
+    "repo_name": "dividend-yield",
+    "exists": false
   },
   {
-    "repo_name": "automated-reporting"
+    "repo_name": "automated-reporting",
+    "exists": false
   },
   {
-    "repo_name": "rotation-key"
+    "repo_name": "rotation-key",
+    "exists": false
   },
   {
-    "repo_name": "master-key"
+    "repo_name": "master-key",
+    "exists": false
   },
   {
-    "repo_name": "payment-queue"
+    "repo_name": "payment-queue",
+    "exists": false
   },
   {
-    "repo_name": "bid-spread"
+    "repo_name": "bid-spread",
+    "exists": false
   },
   {
-    "repo_name": "payment-notification"
+    "repo_name": "payment-notification",
+    "exists": false
   },
   {
-    "repo_name": "batch-pipeline"
+    "repo_name": "batch-pipeline",
+    "exists": false
   },
   {
-    "repo_name": "international-customer"
+    "repo_name": "international-customer",
+    "exists": false
   },
   {
-    "repo_name": "async-worker"
+    "repo_name": "async-worker",
+    "exists": false
   },
   {
-    "repo_name": "reporting-module"
+    "repo_name": "reporting-module",
+    "exists": false
   },
   {
-    "repo_name": "trusted-counterparty"
+    "repo_name": "trusted-counterparty",
+    "exists": false
   },
   {
-    "repo_name": "private-vault"
+    "repo_name": "private-vault",
+    "exists": true
   },
   {
-    "repo_name": "corporate-customer"
+    "repo_name": "corporate-customer",
+    "exists": false
   },
   {
-    "repo_name": "working-capital"
+    "repo_name": "working-capital",
+    "exists": false
   },
   {
-    "repo_name": "microservice-orchestrator"
+    "repo_name": "microservice-orchestrator",
+    "exists": false
   },
   {
-    "repo_name": "compliance-agent"
+    "repo_name": "compliance-agent",
+    "exists": false
   },
   {
-    "repo_name": "legacy-bridge"
+    "repo_name": "legacy-bridge",
+    "exists": false
   },
   {
-    "repo_name": "nostro-reconciliation"
+    "repo_name": "nostro-reconciliation",
+    "exists": false
   },
   {
-    "repo_name": "synthetic-portfolio"
+    "repo_name": "synthetic-portfolio",
+    "exists": false
   },
   {
-    "repo_name": "change-ticket"
+    "repo_name": "change-ticket",
+    "exists": false
   },
   {
-    "repo_name": "diversified-portfolio"
+    "repo_name": "diversified-portfolio",
+    "exists": false
   },
   {
-    "repo_name": "compliance-monitor"
+    "repo_name": "compliance-monitor",
+    "exists": false
   },
   {
-    "repo_name": "risk-alert"
+    "repo_name": "risk-alert",
+    "exists": false
   },
   {
-    "repo_name": "fraud-alert"
+    "repo_name": "fraud-alert",
+    "exists": false
   },
   {
-    "repo_name": "reference-warehouse"
+    "repo_name": "reference-warehouse",
+    "exists": false
   },
   {
-    "repo_name": "distributed-orchestrator"
+    "repo_name": "distributed-orchestrator",
+    "exists": false
   },
   {
-    "repo_name": "indexed-portfolio"
+    "repo_name": "indexed-portfolio",
+    "exists": false
   },
   {
-    "repo_name": "system-bridge"
+    "repo_name": "system-bridge",
+    "exists": false
   },
   {
-    "repo_name": "portfolio-statement"
+    "repo_name": "portfolio-statement",
+    "exists": false
   },
   {
-    "repo_name": "historical-archive"
+    "repo_name": "historical-archive",
+    "exists": false
   },
   {
-    "repo_name": "financial-datamart"
+    "repo_name": "financial-datamart",
+    "exists": false
   },
   {
-    "repo_name": "event-relay"
+    "repo_name": "event-relay",
+    "exists": false
   },
   {
-    "repo_name": "futures-trade"
+    "repo_name": "futures-trade",
+    "exists": false
   },
   {
-    "repo_name": "interest-swap"
+    "repo_name": "interest-swap",
+    "exists": false
   },
   {
-    "repo_name": "reference-rate"
+    "repo_name": "reference-rate",
+    "exists": false
   },
   {
-    "repo_name": "message-relay"
+    "repo_name": "message-relay",
+    "exists": false
   },
   {
-    "repo_name": "automated-scheduler"
+    "repo_name": "automated-scheduler",
+    "exists": false
   },
   {
-    "repo_name": "spot-forex"
+    "repo_name": "spot-forex",
+    "exists": false
   },
   {
-    "repo_name": "corporate-wallet"
+    "repo_name": "corporate-wallet",
+    "exists": true
   },
   {
-    "repo_name": "pricing-cache"
+    "repo_name": "pricing-cache",
+    "exists": false
   },
   {
-    "repo_name": "onboarding-workflow"
+    "repo_name": "onboarding-workflow",
+    "exists": false
   },
   {
-    "repo_name": "audit-role"
+    "repo_name": "audit-role",
+    "exists": false
   },
   {
-    "repo_name": "session-token"
+    "repo_name": "session-token",
+    "exists": false
   },
   {
-    "repo_name": "structured-derivative"
+    "repo_name": "structured-derivative",
+    "exists": false
   },
   {
-    "repo_name": "syndicated-credit"
+    "repo_name": "syndicated-credit",
+    "exists": false
   },
   {
-    "repo_name": "payment-module"
+    "repo_name": "payment-module",
+    "exists": false
   },
   {
-    "repo_name": "tax-calculator"
+    "repo_name": "tax-calculator",
+    "exists": false
   },
   {
-    "repo_name": "continuous-compliance"
+    "repo_name": "continuous-compliance",
+    "exists": false
   },
   {
-    "repo_name": "deferred-settlement"
+    "repo_name": "deferred-settlement",
+    "exists": false
   },
   {
-    "repo_name": "residential-mortgage"
+    "repo_name": "residential-mortgage",
+    "exists": false
   },
   {
-    "repo_name": "reverse-proxy"
+    "repo_name": "reverse-proxy",
+    "exists": false
   },
   {
-    "repo_name": "liquid-equity"
+    "repo_name": "liquid-equity",
+    "exists": false
   },
   {
-    "repo_name": "regulatory-capital"
+    "repo_name": "regulatory-capital",
+    "exists": false
   },
   {
-    "repo_name": "commercial-mortgage"
+    "repo_name": "commercial-mortgage",
+    "exists": false
   },
   {
-    "repo_name": "risk-agent"
+    "repo_name": "risk-agent",
+    "exists": false
   },
   {
-    "repo_name": "elevated-permission"
+    "repo_name": "elevated-permission",
+    "exists": false
   },
   {
-    "repo_name": "market-stream"
+    "repo_name": "market-stream",
+    "exists": false
   },
   {
-    "repo_name": "tier-one-capital"
+    "repo_name": "tier-one-capital",
+    "exists": false
   },
   {
-    "repo_name": "event-processor"
+    "repo_name": "event-processor",
+    "exists": false
   },
   {
-    "repo_name": "limit-order"
+    "repo_name": "limit-order",
+    "exists": false
   },
   {
-    "repo_name": "tax-invoice"
+    "repo_name": "tax-invoice",
+    "exists": false
   },
   {
-    "repo_name": "root-certificate"
+    "repo_name": "root-certificate",
+    "exists": false
   },
   {
-    "repo_name": "gross-exposure"
+    "repo_name": "gross-exposure",
+    "exists": false
   },
   {
-    "repo_name": "vanilla-option"
+    "repo_name": "vanilla-option",
+    "exists": false
   },
   {
-    "repo_name": "event-stream"
+    "repo_name": "event-stream",
+    "exists": false
   },
   {
-    "repo_name": "payment-workflow"
+    "repo_name": "payment-workflow",
+    "exists": false
   },
   {
-    "repo_name": "risk-report"
+    "repo_name": "risk-report",
+    "exists": false
   },
   {
-    "repo_name": "auth-proxy"
+    "repo_name": "auth-proxy",
+    "exists": false
   },
   {
-    "repo_name": "data-microservice"
+    "repo_name": "data-microservice",
+    "exists": false
   },
   {
-    "repo_name": "api-gateway"
+    "repo_name": "api-gateway",
+    "exists": false
   },
   {
-    "repo_name": "automated-reconciliation"
+    "repo_name": "automated-reconciliation",
+    "exists": false
   },
   {
-    "repo_name": "credit-index"
+    "repo_name": "credit-index",
+    "exists": false
   },
   {
-    "repo_name": "trading-service"
+    "repo_name": "trading-service",
+    "exists": false
   },
   {
-    "repo_name": "trade-stream"
+    "repo_name": "trade-stream",
+    "exists": false
   },
   {
-    "repo_name": "data-platform"
+    "repo_name": "data-platform",
+    "exists": false
   },
   {
-    "repo_name": "compliance-service"
+    "repo_name": "compliance-service",
+    "exists": false
   },
   {
-    "repo_name": "intelligent-agent"
+    "repo_name": "intelligent-agent",
+    "exists": false
   },
   {
-    "repo_name": "sub-custodian"
+    "repo_name": "sub-custodian",
+    "exists": false
   },
   {
-    "repo_name": "digital-customer"
+    "repo_name": "digital-customer",
+    "exists": false
   },
   {
-    "repo_name": "functional-currency"
+    "repo_name": "functional-currency",
+    "exists": false
   },
   {
-    "repo_name": "behavioral-analytics"
+    "repo_name": "behavioral-analytics",
+    "exists": false
   },
   {
-    "repo_name": "global-capital"
+    "repo_name": "global-capital",
+    "exists": false
   },
   {
-    "repo_name": "allocated-capital"
+    "repo_name": "allocated-capital",
+    "exists": false
   },
   {
-    "repo_name": "corporate-event"
+    "repo_name": "corporate-event",
+    "exists": false
   },
   {
-    "repo_name": "net-exposure"
+    "repo_name": "net-exposure",
+    "exists": false
   },
   {
-    "repo_name": "streaming-pipeline"
+    "repo_name": "streaming-pipeline",
+    "exists": false
   },
   {
-    "repo_name": "card-issuer"
+    "repo_name": "card-issuer",
+    "exists": false
   },
   {
-    "repo_name": "product-catalog"
+    "repo_name": "product-catalog",
+    "exists": false
   },
   {
-    "repo_name": "client-registry"
+    "repo_name": "client-registry",
+    "exists": false
   },
   {
-    "repo_name": "failed-transaction"
+    "repo_name": "failed-transaction",
+    "exists": false
   },
   {
-    "repo_name": "trading-microservice"
+    "repo_name": "trading-microservice",
+    "exists": false
   },
   {
-    "repo_name": "order-queue"
+    "repo_name": "order-queue",
+    "exists": false
   },
   {
-    "repo_name": "crossborder-deal"
+    "repo_name": "crossborder-deal",
+    "exists": false
   },
   {
-    "repo_name": "notification-dispatcher"
+    "repo_name": "notification-dispatcher",
+    "exists": false
   },
   {
-    "repo_name": "yield-calculator"
+    "repo_name": "yield-calculator",
+    "exists": false
   },
   {
-    "repo_name": "automated-compliance"
+    "repo_name": "automated-compliance",
+    "exists": false
   },
   {
-    "repo_name": "trade-archive"
+    "repo_name": "trade-archive",
+    "exists": false
   },
   {
-    "repo_name": "account-statement"
+    "repo_name": "account-statement",
+    "exists": false
   },
   {
-    "repo_name": "local-custody"
+    "repo_name": "local-custody",
+    "exists": false
   },
   {
-    "repo_name": "forward-trade"
+    "repo_name": "forward-trade",
+    "exists": false
   },
   {
-    "repo_name": "stream-processor"
+    "repo_name": "stream-processor",
+    "exists": false
   },
   {
-    "repo_name": "batch-worker"
+    "repo_name": "batch-worker",
+    "exists": false
   },
   {
-    "repo_name": "systemic-risk"
+    "repo_name": "systemic-risk",
+    "exists": false
   },
   {
-    "repo_name": "closed-position"
+    "repo_name": "closed-position",
+    "exists": false
   },
   {
-    "repo_name": "intraday-liquidity"
+    "repo_name": "intraday-liquidity",
+    "exists": false
   },
   {
-    "repo_name": "fixed-mortgage"
+    "repo_name": "fixed-mortgage",
+    "exists": false
   },
   {
-    "repo_name": "risk-signal"
+    "repo_name": "risk-signal",
+    "exists": false
   },
   {
-    "repo_name": "market-webhook"
+    "repo_name": "market-webhook",
+    "exists": false
   }
 ]
