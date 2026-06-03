@@ -59,11 +59,19 @@ def image_exists(owner, repo, tag="latest"):
                 raise
 
 
-def find_repos(json_path, github_org):
+def find_repos(json_path, github_org, limit=200):
+    """Return up to `limit` repos that have no ghcr.io image.
+
+    GitHub Actions caps matrix configurations at 256; limit keeps us safely
+    under that ceiling. Re-running the workflow picks up the next batch since
+    this script only returns repos that are still missing an image.
+    """
     with open(json_path) as f:
         repos = json.load(f)
     results = []
-    for repo in repos[:20]:
+    for repo in repos:
+        if len(results) >= limit:
+            break
         repo_name = repo["repo_name"]
         if not image_exists(github_org, repo_name):
             results.append({"repo_name": repo_name})
